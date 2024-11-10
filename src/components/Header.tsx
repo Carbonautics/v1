@@ -8,8 +8,12 @@ export default function Header() {
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
           Senior Software Engineer
         </h2>
-        <p className="mt-4 max-w-s leading-normal">
-          Building Secure & Engaging applications
+        <p className="mt-4 max-w-sm leading-normal">
+          Building Secure & Engaging applications{" "}
+        </p>
+        <p className="mt-4 text-xs italic max-w-sm tracking-tighter">
+          (Please note that this portfolio project was started on November 7th,
+          2024 and still is In-Progress)
         </p>
       </div>
     </header>
