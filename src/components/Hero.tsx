@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Main from "./Main";
-import SideNav from "./Sections/SideNav";
+import SideNav from "./sections/SideNav";
 
 export default function Hero() {
   return (

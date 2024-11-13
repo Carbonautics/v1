@@ -1,4 +1,4 @@
-import About from "./Sections/About";
+import About from "./sections/About";
 
 export default function Main() {
   return (

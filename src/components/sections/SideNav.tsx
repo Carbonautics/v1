@@ -1,5 +1,5 @@
 import { email } from "../../static/SocialMediaData";
-import Side from "../Sections/Side";
+import Side from "./Side";
 import Socials from "../Socials";
 
 type SideNavProps = { isHome: boolean };
