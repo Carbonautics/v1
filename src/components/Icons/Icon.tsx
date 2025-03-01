@@ -1,5 +1,6 @@
 import React, { SVGProps } from "react";
-import { icons } from "./Icons";
+import type { IconTypes } from "./Icon.types";
+import { ICONS } from "./Icon.constants";
 
 type IconProps = {
   icon: IconTypes;
@@ -7,7 +8,7 @@ type IconProps = {
 };
 
 export default function Icon({ icon, props }: IconProps): React.ReactNode {
-  const svgContent = React.createElement(icons[icon]);
+  const svgContent = React.createElement(ICONS[icon]);
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

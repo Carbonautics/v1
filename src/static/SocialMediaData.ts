@@ -1,3 +1,5 @@
+import type { IconTypes } from "../components/Icons";
+
 type SocialMediaDataType = {
   label: IconTypes;
   url: string;

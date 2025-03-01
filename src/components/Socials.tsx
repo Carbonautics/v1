@@ -1,5 +1,5 @@
 import { uniqueId } from "lodash";
-import Icon from "./Icon";
+import Icon from "./Icons";
 import { socialMediaLinks } from "../static/SocialMediaData";
 
 export default function Socials() {

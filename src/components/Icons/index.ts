@@ -1,7 +1,4 @@
-import GithubSvg from "./Github";
-import LinkedInSvg from "./LinkedIn";
+export { default } from './Icon';
 
-export const icons = {
-  github: GithubSvg,
-  linkedin: LinkedInSvg,
-} as const;
+export { ICONS } from "./Icon.constants";
+export type { IconTypes } from './Icon.types';
